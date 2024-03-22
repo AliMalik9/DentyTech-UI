@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font: 16px/1.6 "Outfit", sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h3{
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+#nav #nav-part1 i{
+    font-size: 1.2rem;
+    border: 2px solid black;
+    padding: 2px 8px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav-part2 #icon i{
+   text-align: center;
+}
+
+#nav h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav-icon{
+    height: 3rem;
+    width: 3rem;
+    background-color: #FF4E25;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    color: white;
+}
+
+#nav button{
+    font-size: 1.1rem;
+    padding: 7px 16px;
+    border-radius: 999px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 500;
+}
+
+#nav #btn2{
+    border: 2px solid #FF4E25;
+    background-color: #FF4E25;
+    color: white;
+}
+
+#main>h1{
+    text-transform: uppercase;
+    font-size: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    user-select: none;
+}
+
+img{
+    height: 450px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-8deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-16deg);
+}
+
+#img4{
+    transform: translate(-50%, -50%) rotate(-24deg);
+}
+
+#bottom{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 2rem 4rem;
+}
+
+
+
+#b-left, #b-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#dot{
+    height: 12px;
+    width: 12px;
+    background-color: #FF4E25;
+    border-radius: 999px;
+}
+
+#br-icons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
